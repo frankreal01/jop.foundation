@@ -283,7 +283,7 @@ img {
     align-items: center;
     gap: 80px;
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
 .hero-copy {
@@ -515,7 +515,7 @@ img {
     color: rgba(255,255,255,.42);
     font-size: 9px;
     letter-spacing: .18em;
-    z-index: 2;
+    z-index: 3;
 }
 
 .scroll-arrow {
