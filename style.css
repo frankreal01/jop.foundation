@@ -240,9 +240,24 @@ img {
     color: var(--white);
     position: relative;
     overflow: hidden;
-    background:
-        radial-gradient(circle at 65% 35%, rgba(36, 111, 255, .42), transparent 31%),
-        linear-gradient(120deg, #06183D 0%, #092861 48%, #104DAE 100%);
+    background: #06183D;
+}
+
+.hero-backdrop {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(6,24,61,.94) 0%, rgba(6,24,61,.78) 42%, rgba(6,24,61,.18) 100%);
 }
 
 .hero::before {
@@ -255,6 +270,8 @@ img {
         linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px);
     background-size: 90px 90px;
     mask-image: linear-gradient(to bottom, black, transparent 80%);
+    z-index: 2;
+    pointer-events: none;
 }
 
 .hero-grid {
@@ -262,7 +279,7 @@ img {
     padding-top: 135px;
     padding-bottom: 95px;
     display: grid;
-    grid-template-columns: minmax(0, 1.02fr) minmax(380px, .98fr);
+    grid-template-columns: minmax(0, 1fr);
     align-items: center;
     gap: 80px;
     position: relative;
@@ -270,7 +287,7 @@ img {
 }
 
 .hero-copy {
-    max-width: 720px;
+    max-width: 760px;
 }
 
 .eyebrow {
@@ -1479,7 +1496,7 @@ img {
     .nav-cta { display: none; }
 
     .hero-grid {
-        grid-template-columns: 1fr .75fr;
+        grid-template-columns: 1fr;
         gap: 45px;
     }
 
@@ -1554,6 +1571,8 @@ img {
 
     .hero-grid {
         padding-top: 125px;
+        position: relative;
+        z-index: 3;
     }
 
     .hero-visual {
@@ -1622,6 +1641,10 @@ img {
     .hero-grid {
         min-height: auto;
         padding-bottom: 100px;
+    }
+
+    .hero-backdrop {
+        object-position: 65% center;
     }
 
     .hero h1 {
