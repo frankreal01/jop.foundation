@@ -1,64 +1,28 @@
-# JOP Foundation Website
+# JOP Foundation Website — V3
 
-This is the current JOP Foundation institutional website architecture.
+A premium institutional website prototype for JOP Foundation.
 
-## Files
+## Structure
 
-- `index.html` — main semantic website
-- `style.css` — primary visual system and responsive styling
-- `script.js` — navigation, scroll progress, reveal animation and active section
+- `index.html` — semantic site structure and content
+- `style.css` — complete visual system, responsive layout and animations
+- `script.js` — navigation, scroll progress, reveal animations and active section state
 - `react-components.jsx` — React-powered interactive Foundation Architecture module
-- `react-components.css` — responsive styling for the React module
-- `assets/images/` — approved visual assets
+- `react-components.css` — styles for the React module
+- `assets/images/foundation-visual-concept.png` — temporary hero visual concept
 
-## React
+## V3 additions
 
-The main site remains lightweight HTML/CSS/JavaScript. React is used as a complementary interactive layer rather than forcing the entire website into React prematurely.
+- Added an explicit **Our Direction** section covering Mission, Vision and Values.
+- Expanded the navigation and footer to include Our Direction.
+- Connected the Foundation's Facebook, Instagram and TikTok destinations using the `@jop.foundation` handle pattern.
+- Reworked the hero to use the existing visual concept rather than a missing image file.
+- Preserved the core architecture: Identity → Intentionality → Professionalism → Focus Areas → Approach → Founder → Journal → Interactive Architecture → Community.
 
-The React module provides:
-- interactive Identity / Intentionality / Professionalism tabs
-- responsive layout
-- keyboard-friendly tab buttons
-- content switching without page reload
+## Run locally
 
-The current implementation uses React 18 through CDN scripts, which is suitable for learning/prototyping. For production deployment, the next step should be migrating the whole site into a Vite + React project.
+Open `index.html` with VS Code Live Server, or serve the folder with any static web server.
 
-## Images
+## Next production stage
 
-`assets/images/foundation-hero.jpg` is reserved for the final website hero image.
-
-`assets/images/foundation-visual-concept.png` is a generated visual concept. It contains embedded campaign typography, so it should be treated as a reference/temporary visual rather than the final hero asset.
-
-Recommended final hero:
-- wide 16:9 or 21:9 composition
-- no embedded text
-- no logo
-- young African people in a contemporary architectural environment
-- strong cobalt/midnight-blue atmosphere
-- negative space for HTML typography
-- editorial and institutional, not charity-style
-
-`assets/images/founder.jpg` is reserved for the founder portrait.
-
-## Local development
-
-You can open `index.html` directly for basic testing. A local server is preferable for the best browser behavior.
-
-Example with VS Code:
-1. Install Live Server.
-2. Right-click `index.html`.
-3. Select "Open with Live Server".
-
-## Next architecture step
-
-For the full production website, migrate the project to:
-- React + Vite
-- reusable components
-- React Router
-- content/data files
-- form handling
-- CMS or backend
-- analytics
-- proper social links
-- SEO/Open Graph metadata
-- optimized WebP/AVIF images
+Replace the temporary hero concept and founder placeholder with approved assets, confirm the official social URLs/email, then migrate the interactive React module into a Vite React application for production.
