@@ -2,504 +2,654 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <!-- Makes the website responsive on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>JuliusOnPurpose | Purpose. Technology. Creativity.</title>
+    <meta name="description" content="JOP Foundation — developing purposeful people through identity, intentionality and professionalism.">
+    <meta name="theme-color" content="#071b49">
 
-    <!-- Link to the external CSS file -->
+    <title>JOP Foundation | Identity. Intentionality. Professionalism.</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- =========================
+         PAGE PROGRESS
+    ========================== -->
+    <div class="scroll-progress" aria-hidden="true"></div>
 
     <!-- =========================
-         Header / Navigation
+         HEADER
     ========================== -->
-    <header class="header">
-        <nav class="navbar">
+    <header class="site-header" id="site-header">
+        <nav class="navbar container" aria-label="Primary navigation">
 
-            <a href="#home" class="logo">
-                JuliusOnPurpose
+            <a class="brand" href="#home" aria-label="JOP Foundation home">
+                <!-- Replace this text mark with your exact logo image when ready. -->
+                <span class="brand-mark" aria-hidden="true">J</span>
+                <span class="brand-name">
+                    <strong>JOP</strong>
+                    <span>FOUNDATION</span>
+                </span>
             </a>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">What I Do</a></li>
-                <li><a href="#journey">Journey</a></li>
-                <li><a href="#content">Content</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
 
+            <div class="nav-panel">
+                <ul class="nav-links">
+                    <li><a class="nav-link active" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#why">Why We Exist</a></li>
+                    <li><a class="nav-link" href="#philosophy">Philosophy</a></li>
+                    <li><a class="nav-link" href="#programs">Focus Areas</a></li>
+                    <li><a class="nav-link" href="#founder">Founder</a></li>
+                    <li><a class="nav-link" href="#journal">Journal</a></li>
+                </ul>
+
+                <a class="nav-cta" href="#contact">Connect <span>↗</span></a>
+            </div>
         </nav>
     </header>
-
 
     <main>
 
         <!-- =========================
-             Hero Section
+             HERO
         ========================== -->
         <section class="hero" id="home">
+            <div class="hero-grid container">
 
-            <div class="hero-content">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> A FOUNDATION FOR BECOMING</p>
 
-                <p class="eyebrow">WELCOME TO MY SPACE</p>
+                    <h1>
+                        Become intentional
+                        <em>about who you are becoming.</em>
+                    </h1>
 
-                <h1>
-                    Discover Your Purpose.
-                    <span>Build With Intention.</span>
-                </h1>
+                    <p class="hero-text">
+                        JOP Foundation exists to help young people develop the identity,
+                        discipline, skills and professional capacity required to turn
+                        potential into meaningful contribution.
+                    </p>
 
-                <p class="hero-description">
-                    JuliusOnPurpose is a personal brand exploring purpose,
-                    technology, artificial intelligence, creativity and
-                    intentional personal growth.
-                </p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#why">
+                            Why We Exist <span>↗</span>
+                        </a>
+                        <a class="button button-ghost" href="#philosophy">
+                            Explore Our Philosophy
+                        </a>
+                    </div>
 
-                <div class="hero-buttons">
-                    <a href="#journey" class="btn btn-primary">
-                        Explore My Journey
-                    </a>
-
-                    <a href="#contact" class="btn btn-secondary">
-                        Get In Touch
-                    </a>
+                    <div class="hero-meta">
+                        <span>01</span>
+                        <span class="meta-line"></span>
+                        <span>IDENTITY · INTENTIONALITY · PROFESSIONALISM</span>
+                    </div>
                 </div>
 
+                <div class="hero-visual reveal reveal-delay">
+                    <div class="hero-image-frame">
+                        <!-- Replace with your own approved foundation image. -->
+                        <img
+                            src="assets/images/foundation-hero.jpg"
+                            alt="Young African professionals moving through a contemporary architectural environment"
+                            onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');"
+                        >
+                        <div class="hero-placeholder">
+                            <span>JOP</span>
+                            <small>IMAGE PLACEHOLDER</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-note">
+                        <span class="floating-number">01</span>
+                        <div>
+                            <strong>Potential</strong>
+                            <p>needs direction.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-
-            <div class="hero-image">
-
-                <!-- Replace this image with your actual profile image -->
-                <img
-                    src="https://scontent.fabb1-1.fna.fbcdn.net/v/t39.30808-6/750396993_1069955555702876_8198101166960972453_n.jpg?stp=dst-jpg_tt6&cstp=mx1086x1086&ctp=s1086x1086&_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=aFsgZJrGt1MQ7kNvwEIqssl&_nc_oc=Ado07sOcSnsD-F0YV_GOfO6Fem355GxUbS-pgIUYx93jaarhaxFgmuhnV7ZQMviVyW0&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&_nc_gid=zLtHeZqxOKDsOoaCo2qVfA&_nc_ss=7b289&oh=00_AQH6vicc5vlH9gNjzIYtBLHyhrlsbeoCqXQVS6BGIgbmHA&oe=6A890EE8"
-                    alt="Portrait of Julius"
-                >
-
+            <div class="hero-bottom container">
+                <span>SCROLL TO EXPLORE</span>
+                <span class="scroll-arrow">↓</span>
             </div>
-
         </section>
 
-
         <!-- =========================
-             About Section
+             ABOUT
         ========================== -->
-        <section class="section about" id="about">
+        <section class="section section-light" id="about">
+            <div class="container split-layout">
 
-            <div class="section-heading">
-                <p class="eyebrow">GET TO KNOW ME</p>
+                <div class="section-intro reveal">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> 01 / WHO WE ARE</p>
+                    <h2>A foundation built around <span>becoming.</span></h2>
+                </div>
 
-                <h2>About Me</h2>
-
-                <p>
-                    I am Julius Franklin, a creativity and tech enthusiast
-                    interested in artificial intelligence, web development,
-                    digital creativity and personal growth. Through
-                    JuliusOnPurpose, I explore ideas that can help young
-                    people understand their purpose and build meaningful
-                    lives with intention.
-                </p>
-            </div>
-
-
-            <!-- Statistics -->
-            <div class="stats">
-
-                <article class="stat-card">
-                    <h3>4+</h3>
-                    <p>Years</p>
-                    <span>Creative Experience</span>
-                </article>
-
-                <article class="stat-card">
-                    <h3>3+</h3>
-                    <p>Years</p>
-                    <span>Data &amp; AI Experience</span>
-                </article>
-
-                <article class="stat-card">
-                    <h3>10+</h3>
-                    <p>Projects</p>
-                    <span>Projects &amp; Experiments</span>
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             What I Do Section
-        ========================== -->
-        <section class="section services" id="services">
-
-            <div class="section-heading">
-                <p class="eyebrow">MY AREAS OF INTEREST</p>
-
-                <h2>What I Do</h2>
-
-                <p>
-                    I combine technology, creativity and purpose to learn,
-                    build and share my ideas.
-                </p>
-            </div>
-
-
-            <div class="service-grid">
-
-                <article class="service-card">
-
-                    <div class="service-number">01</div>
-
-                    <h3>AI &amp; Technology</h3>
-
-                    <p>
-                        Exploring artificial intelligence, emerging
-                        technologies and practical digital solutions.
+                <div class="section-copy reveal reveal-delay">
+                    <p class="lead">
+                        JOP Foundation is a purpose-driven platform focused on helping
+                        young people become more intentional about who they are,
+                        what they develop and how they contribute.
                     </p>
 
-                </article>
-
-
-                <article class="service-card">
-
-                    <div class="service-number">02</div>
-
-                    <h3>Web Development</h3>
-
                     <p>
-                        Building responsive and user-friendly websites
-                        using modern web technologies.
+                        We believe potential is only a beginning. People need direction,
+                        self-awareness, useful skills, disciplined habits and environments
+                        that encourage growth. Our work is therefore not simply about
+                        telling young people to “do more”; it is about helping them build
+                        the foundations required to do meaningful things well.
                     </p>
 
-                </article>
-
-
-                <article class="service-card">
-
-                    <div class="service-number">03</div>
-
-                    <h3>Graphics Design</h3>
-
-                    <p>
-                        Creating visual identities, digital designs and
-                        creative content.
-                    </p>
-
-                </article>
-
-
-                <article class="service-card">
-
-                    <div class="service-number">04</div>
-
-                    <h3>Purpose &amp; Growth</h3>
-
-                    <p>
-                        Sharing ideas around purpose, personal development
-                        and intentional living.
-                    </p>
-
-                </article>
-
+                    <a class="text-link" href="#why">Understand the reason behind the work <span>→</span></a>
+                </div>
             </div>
 
+            <div class="container principle-strip reveal">
+                <div class="principle-item">
+                    <span>01</span>
+                    <strong>IDENTITY</strong>
+                    <p>Know who you are and who you are becoming.</p>
+                </div>
+
+                <div class="principle-item">
+                    <span>02</span>
+                    <strong>INTENTIONALITY</strong>
+                    <p>Make conscious choices that align with your purpose.</p>
+                </div>
+
+                <div class="principle-item">
+                    <span>03</span>
+                    <strong>PROFESSIONALISM</strong>
+                    <p>Develop the character, skills and conduct to contribute meaningfully.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             WHY WE EXIST
+        ========================== -->
+        <section class="section why-section" id="why">
+            <div class="container">
+
+                <div class="section-topline reveal">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> 02 / WHY WE EXIST</p>
+                    <span class="section-index">JOP / 002</span>
+                </div>
+
+                <div class="why-grid">
+                    <div class="why-copy reveal">
+                        <h2>
+                            Potential
+                            <span>needs direction.</span>
+                        </h2>
+
+                        <p class="large-copy">
+                            Young people carry enormous potential. But potential alone
+                            does not determine what someone becomes.
+                        </p>
+
+                        <p>
+                            Direction matters. Development matters. Environment matters.
+                            The choices a person makes repeatedly matter. JOP Foundation
+                            exists to create conversations, learning experiences and
+                            opportunities that help young people move from possibility
+                            toward purposeful development.
+                        </p>
+
+                        <div class="quote-block">
+                            <span class="quote-mark">“</span>
+                            <p>
+                                We are not trying to tell people who to become.
+                                We are helping them become more intentional about it.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="why-visual reveal reveal-delay">
+                        <div class="architectural-card">
+                            <div class="arch arch-one"></div>
+                            <div class="arch arch-two"></div>
+                            <div class="arch arch-three"></div>
+                            <div class="arch-person">
+                                <span></span>
+                            </div>
+                            <div class="arch-label">
+                                <small>DIRECTION</small>
+                                <strong>01 → 02 → 03</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             PHILOSOPHY
+        ========================== -->
+        <section class="section philosophy-section" id="philosophy">
+            <div class="container">
+
+                <div class="section-heading centered reveal">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> 03 / OUR PHILOSOPHY</p>
+                    <h2>Who we become should be reflected in <span>how we live, grow and show up.</span></h2>
+                    <p>
+                        Three connected principles guide the way we think about personal
+                        development, professional growth and meaningful contribution.
+                    </p>
+                </div>
+
+                <div class="philosophy-grid">
+
+                    <article class="philosophy-card reveal">
+                        <div class="card-top">
+                            <span>01</span>
+                            <span class="card-arrow">↗</span>
+                        </div>
+                        <div class="card-symbol">J</div>
+                        <h3>Identity</h3>
+                        <p>
+                            Understand your values, strengths, character and direction.
+                            Identity gives development a foundation.
+                        </p>
+                        <span class="card-caption">KNOW YOURSELF</span>
+                    </article>
+
+                    <article class="philosophy-card featured reveal reveal-delay">
+                        <div class="card-top">
+                            <span>02</span>
+                            <span class="card-arrow">↗</span>
+                        </div>
+                        <div class="card-symbol target-symbol">◎</div>
+                        <h3>Intentionality</h3>
+                        <p>
+                            Make deliberate choices about your time, habits, relationships
+                            and development. Direction becomes meaningful through action.
+                        </p>
+                        <span class="card-caption">CHOOSE DELIBERATELY</span>
+                    </article>
+
+                    <article class="philosophy-card reveal reveal-delay-2">
+                        <div class="card-top">
+                            <span>03</span>
+                            <span class="card-arrow">↗</span>
+                        </div>
+                        <div class="card-symbol">▥</div>
+                        <h3>Professionalism</h3>
+                        <p>
+                            Develop competence, character and conduct that allow you to
+                            contribute with excellence in real environments.
+                        </p>
+                        <span class="card-caption">CONTRIBUTE MEANINGFULLY</span>
+                    </article>
+                </div>
+
+                <div class="philosophy-statement reveal">
+                    <span>IDENTITY</span>
+                    <i>+</i>
+                    <span>INTENTIONALITY</span>
+                    <i>+</i>
+                    <span>PROFESSIONALISM</span>
+                    <strong>=</strong>
+                    <span class="accent">PURPOSEFUL DEVELOPMENT</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             FOCUS AREAS
+        ========================== -->
+        <section class="section focus-section" id="programs">
+            <div class="container">
+
+                <div class="section-topline reveal">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> 04 / FOCUS AREAS</p>
+                    <span class="section-index">BUILDING THE ARCHITECTURE</span>
+                </div>
+
+                <div class="focus-intro">
+                    <div class="reveal">
+                        <h2>Where the philosophy <span>becomes practice.</span></h2>
+                    </div>
+                    <div class="reveal reveal-delay">
+                        <p>
+                            Our work will grow through practical initiatives rather than
+                            empty inspiration. These focus areas provide the architecture
+                            for future programs and partnerships.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="focus-list">
+
+                    <article class="focus-row reveal">
+                        <div class="focus-number">01</div>
+                        <div class="focus-title">
+                            <h3>Identity &amp; Self-Development</h3>
+                            <span>SELF-AWARENESS · DIRECTION · PERSONAL GROWTH</span>
+                        </div>
+                        <p>
+                            Creating conversations, resources and experiences that help
+                            young people understand themselves and define the person they
+                            are intentionally becoming.
+                        </p>
+                        <span class="focus-plus">+</span>
+                    </article>
+
+                    <article class="focus-row reveal">
+                        <div class="focus-number">02</div>
+                        <div class="focus-title">
+                            <h3>Skills &amp; Capability</h3>
+                            <span>LEARNING · TECHNOLOGY · PRACTICAL COMPETENCE</span>
+                        </div>
+                        <p>
+                            Connecting purpose with useful abilities that increase a
+                            young person's capacity to create, solve and contribute.
+                        </p>
+                        <span class="focus-plus">+</span>
+                    </article>
+
+                    <article class="focus-row reveal">
+                        <div class="focus-number">03</div>
+                        <div class="focus-title">
+                            <h3>Professional Development</h3>
+                            <span>CONDUCT · COMMUNICATION · EXCELLENCE</span>
+                        </div>
+                        <p>
+                            Helping emerging professionals develop the habits, standards
+                            and presence required to operate effectively in professional spaces.
+                        </p>
+                        <span class="focus-plus">+</span>
+                    </article>
+
+                    <article class="focus-row reveal">
+                        <div class="focus-number">04</div>
+                        <div class="focus-title">
+                            <h3>Opportunity &amp; Environment</h3>
+                            <span>NETWORKS · EXPOSURE · ACCESS</span>
+                        </div>
+                        <p>
+                            Building relationships and environments where purposeful young
+                            people can encounter ideas, people and opportunities that expand
+                            their possibilities.
+                        </p>
+                        <span class="focus-plus">+</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             APPROACH
+        ========================== -->
+        <section class="section approach-section">
+            <div class="container approach-grid">
+
+                <div class="approach-visual reveal">
+                    <div class="approach-orbit orbit-one"></div>
+                    <div class="approach-orbit orbit-two"></div>
+                    <div class="approach-center">
+                        <span>JOP</span>
+                        <small>FOUNDATION</small>
+                    </div>
+                    <div class="orbit-label label-one">LEARN</div>
+                    <div class="orbit-label label-two">BUILD</div>
+                    <div class="orbit-label label-three">CONTRIBUTE</div>
+                </div>
+
+                <div class="approach-copy reveal reveal-delay">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> 05 / OUR APPROACH</p>
+                    <h2>From <span>potential</span> to contribution.</h2>
+
+                    <p class="lead">
+                        We are interested in development that can be seen in real life:
+                        clearer identity, stronger skills, better decisions, professional
+                        conduct and meaningful work.
+                    </p>
+
+                    <div class="approach-steps">
+                        <div>
+                            <span>01</span>
+                            <div>
+                                <strong>Discover</strong>
+                                <p>Understand yourself, your environment and the problems around you.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>02</span>
+                            <div>
+                                <strong>Develop</strong>
+                                <p>Build the knowledge, skills and habits required for growth.</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>03</span>
+                            <div>
+                                <strong>Contribute</strong>
+                                <p>Apply what you have developed to create value for other people.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             FOUNDER
+        ========================== -->
+        <section class="section founder-section" id="founder">
+            <div class="container founder-grid">
+
+                <div class="founder-image reveal">
+                    <div class="portrait-frame">
+                        <img
+                            src="assets/images/founder.jpg"
+                            alt="Julius Franklin, founder of JOP Foundation"
+                            onerror="this.style.display='none'; this.parentElement.classList.add('image-placeholder');"
+                        >
+                        <div class="portrait-placeholder">
+                            <span>JULIUS<br>FRANKLIN</span>
+                            <small>FOUNDER PORTRAIT</small>
+                        </div>
+                    </div>
+                    <div class="portrait-caption">
+                        <span>JULIUS FRANKLIN</span>
+                        <small>FOUNDER, JOP FOUNDATION</small>
+                    </div>
+                </div>
+
+                <div class="founder-copy reveal reveal-delay">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> 06 / THE FOUNDER</p>
+                    <h2>Meet the person <span>behind the purpose.</span></h2>
+
+                    <p class="lead">
+                        JOP Foundation began from a conviction that young people need
+                        more than potential. They need the direction and development
+                        that help potential become capacity.
+                    </p>
+
+                    <p>
+                        Julius Franklin is building JOP Foundation around a simple belief:
+                        how we understand ourselves influences how we act, what we build
+                        and what we contribute. The Foundation is an attempt to turn that
+                        belief into a platform for purposeful development.
+                    </p>
+
+                    <blockquote>
+                        “I believe that who we become should be intentional — and that
+                        our lives should eventually show evidence of what we value.”
+                    </blockquote>
+
+                    <a class="text-link" href="#contact">Start a conversation <span>→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             JOURNAL
+        ========================== -->
+        <section class="section journal-section" id="journal">
+            <div class="container">
+
+                <div class="section-topline reveal">
+                    <p class="eyebrow"><span class="eyebrow-line"></span> 07 / FROM THE JOURNAL</p>
+                    <a class="text-link" href="#contact">Suggest a conversation <span>→</span></a>
+                </div>
+
+                <div class="journal-grid">
+
+                    <article class="journal-card journal-feature reveal">
+                        <div class="journal-number">01</div>
+                        <div class="journal-content">
+                            <span>IDENTITY</span>
+                            <h3>Who are you becoming?</h3>
+                            <p>
+                                Identity is not only about how you describe yourself.
+                                It is also about the direction your choices are taking you.
+                            </p>
+                            <a href="#contact">Explore the idea →</a>
+                        </div>
+                    </article>
+
+                    <article class="journal-card reveal reveal-delay">
+                        <div class="journal-number">02</div>
+                        <div class="journal-content">
+                            <span>INTENTIONALITY</span>
+                            <h3>Good intentions are not enough.</h3>
+                            <p>
+                                Purpose becomes visible through repeated decisions,
+                                habits and actions.
+                            </p>
+                            <a href="#contact">Explore the idea →</a>
+                        </div>
+                    </article>
+
+                    <article class="journal-card reveal reveal-delay-2">
+                        <div class="journal-number">03</div>
+                        <div class="journal-content">
+                            <span>PROFESSIONALISM</span>
+                            <h3>How you show up matters.</h3>
+                            <p>
+                                Competence, character and conduct shape the value
+                                you are able to contribute.
+                            </p>
+                            <a href="#contact">Explore the idea →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
 
 
         <!-- =========================
-             Journey Section
+             REACT ENHANCEMENT
         ========================== -->
-        <section class="section journey" id="journey">
-
-            <div class="section-heading">
-                <p class="eyebrow">THE ROAD SO FAR</p>
-
-                <h2>My Journey</h2>
-
-                <p>
-                    A simple look at some of the major areas I have explored.
-                </p>
-            </div>
-
-
-            <div class="timeline">
-
-                <article class="timeline-item">
-
-                    <div class="timeline-year">2021</div>
-
-                    <div class="timeline-content">
-                        <h3>Graphics Design</h3>
-
-                        <p>
-                            I started exploring creative design and visual
-                            communication.
-                        </p>
-                    </div>
-
-                </article>
-
-
-                <article class="timeline-item">
-
-                    <div class="timeline-year">2022</div>
-
-                    <div class="timeline-content">
-                        <h3>Work Experience</h3>
-
-                        <p>
-                            I began working as an office assistant also solving data-driven problem.
-                        </p>
-                    </div>
-
-                </article>
-
-
-                <article class="timeline-item">
-
-                    <div class="timeline-year">2026</div>
-
-                    <div class="timeline-content">
-                        <h3>AI &amp; Technology</h3>
-
-                        <p>
-                            I expanded into artificial intelligence and
-                            emerging technology also training AI models.
-                        </p>
-                    </div>
-
-                </article>
-
-
-                <article class="timeline-item">
-
-                    <div class="timeline-year">2026</div>
-
-                    <div class="timeline-content">
-                        <h3>Full-Stack Development</h3>
-
-                        <p>
-                            Now I started my journey as a full-stack developer, learning how to build complete
-                            landing pages and web applications.
-                        </p>
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
+        <div id="react-foundation-root"></div>
 
         <!-- =========================
-             Featured Content Section
+             COMMUNITY / CTA
         ========================== -->
-        <section class="section content-section" id="content">
+        <section class="cta-section" id="contact">
+            <div class="container cta-inner reveal">
 
-            <div class="section-heading">
-
-                <p class="eyebrow">FROM MY JOURNAL</p>
-
-                <h2>Featured Content</h2>
-
-                <p>
-                    Thoughts, lessons and ideas around purpose,
-                    technology and personal growth.
-                </p>
-
-            </div>
-
-
-            <div class="content-grid">
-
-                <!-- Content Card 1 -->
-                <article class="content-card">
-
-                    <img
-                        src="assets/images/content-1.jpg"
-                        alt="Personal growth article placeholder"
-                    >
-
-                    <div class="content-card-body">
-
-                        <p class="content-category">
-                            Personal Growth
-                        </p>
-
-                        <h3>
-                            The Illusion of Commitment and Consistency
-                        </h3>
-
-                        <p>
-                            Exploring the difference between appearing
-                            committed and actually building consistent habits.
-                        </p>
-
-                        <a href="#" class="read-more">
-                            Read More
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Content Card 2 -->
-                <article class="content-card">
-
-                    <img
-                        src="assets/images/content-2.jpg"
-                        alt="Purpose article placeholder"
-                    >
-
-                    <div class="content-card-body">
-
-                        <p class="content-category">
-                            Purpose
-                        </p>
-
-                        <h3>
-                            Finding Purpose in a Digital World
-                        </h3>
-
-                        <p>
-                            Thinking about purpose, identity and meaningful
-                            living in an increasingly digital world.
-                        </p>
-
-                        <a href="#" class="read-more">
-                            Read More
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- Content Card 3 -->
-                <article class="content-card">
-
-                    <img
-                        src="assets/images/content-3.jpg"
-                        alt="Technology article placeholder"
-                    >
-
-                    <div class="content-card-body">
-
-                        <p class="content-category">
-                            Technology
-                        </p>
-
-                        <h3>
-                            Why I Started Learning Full-Stack Development
-                        </h3>
-
-                        <p>
-                            A look at the motivation behind learning how
-                            websites and applications are built.
-                        </p>
-
-                        <a href="#" class="read-more">
-                            Read More
-                        </a>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             Call To Action
-        ========================== -->
-        <section class="cta" id="contact">
-
-            <div class="cta-content">
-
-                <p class="eyebrow">KEEP BUILDING</p>
+                <p class="eyebrow"><span class="eyebrow-line"></span> 08 / JOIN THE JOURNEY</p>
 
                 <h2>
-                    Your Purpose Deserves More Than an Idea.
+                    The work of becoming
+                    <span>is better together.</span>
                 </h2>
 
                 <p>
-                    Meaningful work begins when ideas become intentional
-                    action. Keep learning, keep building and keep growing.
+                    JOP Foundation is being built deliberately. If you are a young person,
+                    mentor, educator, professional, creator, organisation or potential
+                    partner interested in purposeful development, we want to hear from you.
                 </p>
 
-                <a href="mailto:hello@juliusonpurpose.com"
-                   class="btn btn-primary">
-                    Let's Connect
-                </a>
+                <div class="cta-actions">
+                    <a class="button button-light" href="mailto:hello@jopfoundation.org">
+                        Start a Conversation <span>↗</span>
+                    </a>
+                    <a class="button button-outline-light" href="https://www.instagram.com/" target="_blank" rel="noopener">
+                        Follow the Journey
+                    </a>
+                </div>
 
+                <div class="cta-signature">
+                    <span>IDENTITY</span>
+                    <i>•</i>
+                    <span>INTENTIONALITY</span>
+                    <i>•</i>
+                    <span>PROFESSIONALISM</span>
+                </div>
             </div>
-
         </section>
-
     </main>
 
-
     <!-- =========================
-         Footer
+         FOOTER
     ========================== -->
-    <footer class="footer">
-
-        <div class="footer-container">
+    <footer class="site-footer">
+        <div class="container footer-grid">
 
             <div class="footer-brand">
-
-                <h3>JuliusOnPurpose</h3>
+                <a class="brand footer-brand-link" href="#home">
+                    <span class="brand-mark" aria-hidden="true">J</span>
+                    <span class="brand-name">
+                        <strong>JOP</strong>
+                        <span>FOUNDATION</span>
+                    </span>
+                </a>
 
                 <p>
-                    Purpose. Technology. Creativity.
+                    Developing purposeful people through identity,
+                    intentionality and professionalism.
                 </p>
 
+                <span class="footer-location">NIGERIA · AFRICA</span>
             </div>
 
-
-            <div class="footer-links">
-
-                <h4>Navigation</h4>
-
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#content">Content</a>
-                <a href="#contact">Contact</a>
-
+            <div>
+                <h3>Explore</h3>
+                <ul class="footer-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#why">Why We Exist</a></li>
+                    <li><a href="#philosophy">Philosophy</a></li>
+                    <li><a href="#programs">Focus Areas</a></li>
+                    <li><a href="#founder">Founder</a></li>
+                </ul>
             </div>
 
-
-            <div class="social-links">
-
-                <h4>Connect</h4>
-
-                <a href="#">LinkedIn</a>
-                <a href="#">GitHub</a>
-                <a href="#">Instagram</a>
-                <a href="#">TikTok</a>
-
+            <div>
+                <h3>Connect</h3>
+                <ul class="footer-list">
+                    <li><a href="#" aria-label="JOP Foundation on Facebook">Facebook</a></li>
+                    <li><a href="#" aria-label="JOP Foundation on Instagram">Instagram</a></li>
+                    <li><a href="#" aria-label="JOP Foundation on TikTok">TikTok</a></li>
+                    <li><a href="mailto:hello@jopfoundation.org">Email</a></li>
+                </ul>
             </div>
-
         </div>
 
-
-        <div class="footer-bottom">
-
-            <p>
-                &copy; 2026 JuliusOnPurpose. All rights reserved.
-            </p>
-
+        <div class="container footer-bottom">
+            <p>© <span id="year"></span> JOP Foundation. Built with purpose.</p>
+            <span>IDENTITY · INTENTIONALITY · PROFESSIONALISM</span>
         </div>
-
     </footer>
 
+    <link rel="stylesheet" href="react-components.css">
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="react-components.jsx"></script>
+    <script src="script.js"></script>
 </body>
 </html>

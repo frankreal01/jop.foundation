@@ -1,0 +1,197 @@
+
+/* =========================================================
+   REACT FOUNDATION ARCHITECTURE MODULE
+========================================================= */
+
+.react-architecture {
+    background:
+        radial-gradient(circle at 82% 25%, rgba(22, 93, 255, .16), transparent 28%),
+        linear-gradient(135deg, #06183D 0%, #081F4D 52%, #07152F 100%);
+    color: #fff;
+    padding: 110px 0;
+    overflow: hidden;
+}
+
+.react-architecture-inner {
+    width: min(calc(100% - 64px), 1240px);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: .78fr 1.22fr;
+    gap: 72px;
+    align-items: center;
+}
+
+.react-intro h2 {
+    margin: 18px 0;
+    font-family: "Manrope", sans-serif;
+    font-size: clamp(2.6rem, 5vw, 5.2rem);
+    line-height: .98;
+    letter-spacing: -.055em;
+}
+
+.react-intro h2 span {
+    color: #69A0FF;
+}
+
+.react-intro > p:last-child {
+    max-width: 470px;
+    color: rgba(255,255,255,.68);
+    font-size: 1.05rem;
+}
+
+.react-module {
+    border: 1px solid rgba(255,255,255,.13);
+    background: rgba(255,255,255,.035);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 30px 80px rgba(0,0,0,.24);
+}
+
+.react-tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 1px solid rgba(255,255,255,.12);
+}
+
+.react-tab {
+    appearance: none;
+    border: 0;
+    border-right: 1px solid rgba(255,255,255,.10);
+    background: transparent;
+    color: rgba(255,255,255,.62);
+    text-align: left;
+    padding: 22px 20px;
+    cursor: pointer;
+    transition: .25s ease;
+}
+
+.react-tab:last-child {
+    border-right: 0;
+}
+
+.react-tab span,
+.react-tab small {
+    display: block;
+}
+
+.react-tab span {
+    color: #69A0FF;
+    font-size: .75rem;
+    letter-spacing: .12em;
+    margin-bottom: 12px;
+}
+
+.react-tab strong {
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+.react-tab small {
+    font-size: .62rem;
+    letter-spacing: .1em;
+}
+
+.react-tab:hover,
+.react-tab.is-active {
+    background: rgba(22,93,255,.18);
+    color: #fff;
+}
+
+.react-detail {
+    min-height: 290px;
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 30px;
+    padding: 42px;
+    animation: reactDetailIn .35s ease both;
+}
+
+@keyframes reactDetailIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.react-detail-number {
+    font-family: "Manrope", sans-serif;
+    font-size: 4.8rem;
+    line-height: 1;
+    color: rgba(105,160,255,.8);
+    font-weight: 800;
+}
+
+.react-kicker {
+    color: #69A0FF;
+    font-size: .7rem;
+    letter-spacing: .16em;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.react-detail h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    letter-spacing: -.04em;
+    margin-bottom: 12px;
+}
+
+.react-description {
+    max-width: 580px;
+    color: rgba(255,255,255,.72);
+    line-height: 1.75;
+}
+
+.react-points {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+.react-points span {
+    border: 1px solid rgba(255,255,255,.16);
+    padding: 8px 12px;
+    font-size: .72rem;
+    letter-spacing: .08em;
+    color: rgba(255,255,255,.75);
+}
+
+@media (max-width: 900px) {
+    .react-architecture-inner {
+        grid-template-columns: 1fr;
+        gap: 42px;
+    }
+}
+
+@media (max-width: 620px) {
+    .react-architecture {
+        padding: 78px 0;
+    }
+
+    .react-architecture-inner {
+        width: min(calc(100% - 36px), 1240px);
+    }
+
+    .react-tabs {
+        grid-template-columns: 1fr;
+    }
+
+    .react-tab {
+        border-right: 0;
+        border-bottom: 1px solid rgba(255,255,255,.10);
+    }
+
+    .react-tab:last-child {
+        border-bottom: 0;
+    }
+
+    .react-detail {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 28px 22px;
+    }
+
+    .react-detail-number {
+        font-size: 3rem;
+    }
+}
